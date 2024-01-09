@@ -9,7 +9,7 @@ export default function index() {
     <motion.div className={styles.stairs}>
       {
         [...Array(5)].map( (_, index) => {
-          return <motion.div 
+          return <motion.div key={index}
           variants={height} 
           {...mountAnim}
           custom={4 - index} 

@@ -1,7 +1,7 @@
 'use client';
 import styles from './style.module.scss';
 
-export default function ({openMenu}) {
+export default function Burger({openMenu}) {
 
     return (
         <div onClick={() => {openMenu()}} className={styles.button}>
