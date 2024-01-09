@@ -1,10 +1,10 @@
-import { motion } from 'framer-motion';
-import { opacity, slideLeft, mountAnim } from '../anim';
-import styles from './style.module.scss';
-import Link from './link';
-import { useState } from 'react';
+import { motion } from "framer-motion";
+import { opacity, slideLeft, mountAnim } from "../anim";
+import styles from "./style.module.scss";
+import Link from "./link";
+import { useState } from "react";
 import { IoCloseOutline } from "react-icons/io5";
-import { IconContext } from 'react-icons';
+import { IconContext } from "react-icons";
 
 const menu = [
   {
@@ -17,7 +17,7 @@ const menu = [
     description: "To See Everything",
     images: ["projects1.jpg", "projects2.jpg"],
   },
-  
+
   {
     title: "Contact",
     description: "To Send a FAX",
@@ -25,8 +25,7 @@ const menu = [
   },
 ];
 
-export default function index({closeMenu}) {
-
+export default function index({ closeMenu }) {
   return (
     <motion.div
       className={styles.menu}
@@ -43,8 +42,8 @@ export default function index({closeMenu}) {
             closeMenu();
           }}
         >
-          <IconContext.Provider value={{color:"white"}}>
-            <IoCloseOutline />
+          <IconContext.Provider value={{ color: "white" }}>
+            <IoCloseOutline style={{ fontWeight: "light" }} />
           </IconContext.Provider>
         </motion.div>
       </div>
