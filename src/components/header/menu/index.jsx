@@ -6,21 +6,22 @@ import { useState } from 'react';
 
 const menu = [
   {
-    title: "Projects",
-    description: "To See Everything",
-    images: ['projects1.jpg', 'projects2.jpg']
+    title: "About",
+    description: "To  Know Everything",
+    images: ["agence1.jpg", "agence2.jpg"],
   },
   {
-    title: "Agence",
-    description: "To Learn Everything",
-    images: ['agence1.jpg', 'agence2.jpg']
+    title: "Projects",
+    description: "To See Everything",
+    images: ["projects1.jpg", "projects2.jpg"],
   },
+  
   {
     title: "Contact",
     description: "To Send a FAX",
-    images: ['contact1.jpg', 'contact2.jpg']
-  }
-]
+    images: ["contact1.jpg", "contact2.jpg"],
+  },
+];
 
 export default function index({closeMenu}) {
 
@@ -55,10 +56,10 @@ export default function index({closeMenu}) {
           {...mountAnim} 
           custom={0.5} 
           className={styles.footer}>
-          <a>FB</a>
+          <a>GT</a>
+          <a>X</a>
           <a>IG</a>
           <a>IN</a>
-          <a>BE</a>
         </motion.div>
 
     </motion.div>
