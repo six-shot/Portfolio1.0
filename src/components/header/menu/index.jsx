@@ -5,6 +5,12 @@ import Link from "./link";
 import { useState } from "react";
 import { IoCloseOutline } from "react-icons/io5";
 import { IconContext } from "react-icons";
+import Github from "../../../../public/assets/github";
+import Image from "next/image";
+import git from "../../../../public/git.gif"
+import LinkedIn from "../../../../public/assets/linkedin";
+import X from "../../../../public/assets/x";
+import Instagram from "../../../../public/assets/instagram";
 
 const menu = [
   {
@@ -60,10 +66,22 @@ export default function index({ closeMenu }) {
         custom={0.5}
         className={styles.footer}
       >
-        <a>GT</a>
-        <a>X</a>
-        <a>IG</a>
-        <a>IN</a>
+        <a>
+          <Github />
+        </a>
+        <a>
+          {" "}
+          <LinkedIn />
+        </a>
+        <a>
+          {" "}
+          <X />
+        </a>
+        <a>
+          {" "}
+          <Instagram />
+        </a>
+    
       </motion.div>
     </motion.div>
   );

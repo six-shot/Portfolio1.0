@@ -48,7 +48,7 @@ export default function Links({ data, index }) {
       custom={index}
       className={styles.el}
     >
-      <Link href="/">{title}</Link>
+      <Link href="/" className="monumnet-normal">{title}</Link>
       <div ref={outer} className={styles.outer}>
         <div ref={inner} className={styles.inner}>
           {[...Array(2)].map((_, index) => {
