@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <div className={styles.header}>
-        <h2>OPTIMUS PRIME</h2>
+       
       <Burger
         openMenu={() => {
           setMenuIsOpen(true);
