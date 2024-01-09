@@ -1,6 +1,6 @@
 .button{
     width: 150px;
-    height: 80px;
+    height: 30px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@
     cursor: pointer;
 
     p{
-        display: display;
+        display: none;
         color: white;
         margin: 0px;
         text-transform: uppercase;
@@ -30,7 +30,7 @@
     }
 
     .background{
-        background-color: #76d5cb;
+        background-color: #D3FD50;
         width: 100%;
         position: absolute;
         left: 0;
