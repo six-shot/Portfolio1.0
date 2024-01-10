@@ -29,14 +29,14 @@ export default function About() {
             }}
             className="px-[4%] "
           >
-            Some call me Optimus Prime Your Trusty guide through the intricate
+            Some call me Optimus Prime - Your Trusty guide through the intricate
             and ever-evolving world of Frontend.
           </p>
         </motion.div>
 
         <div className="w-full h-full flex justify-center items-center sm:text-[64px] leading-[50px]  text-[40px] sm:leading-[66px] text-[#afa18f] cursor-default">
           <p className="px-[4%] ">
-            I'm a <span className="text-[#76d5cb]">selectively skilled</span>{" "}
+            I &apos; m a <span className="text-[#76d5cb]">selectively skilled</span>{" "}
             Frontend Developer with strong focus on producing high quality &
             impactful digital experience.
           </p>
