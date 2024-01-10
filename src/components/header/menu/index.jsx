@@ -33,56 +33,55 @@ const menu = [
 
 export default function index({ closeMenu }) {
   return (
-    <motion.div
-      className={styles.menu}
-      variants={opacity}
-      initial="initial"
-      animate="enter"
-      exit="exit"
-    >
-      <div className={styles.header}>
-        <motion.div
-          variants={slideLeft}
-          {...mountAnim}
-          onClick={() => {
-            closeMenu();
-          }}
-        >
-          <IconContext.Provider value={{ color: "white" }}>
-            <IoCloseOutline style={{ fontWeight: "light" }} />
-          </IconContext.Provider>
-        </motion.div>
-      </div>
-
-      <div className={styles.body}>
-        {menu.map((el, index) => {
-          return <Link data={el} index={index} key={index} />;
-        })}
-      </div>
-
+    <div className="text-red-500 font-monument_normal">
       <motion.div
+        className={styles.menu}
         variants={opacity}
-        {...mountAnim}
-        custom={0.5}
-        className={styles.footer}
+        initial="initial"
+        animate="enter"
+        exit="exit"
       >
-        <a>
-          <Github />
-        </a>
-        <a>
-          {" "}
-          <LinkedIn />
-        </a>
-        <a>
-          {" "}
-          <X />
-        </a>
-        <a>
-          {" "}
-          <Instagram />
-        </a>
-    
+        <div className={styles.header}>
+          <motion.div
+            variants={slideLeft}
+            {...mountAnim}
+            onClick={() => {
+              closeMenu();
+            }}
+          >
+            <IconContext.Provider value={{ color: "white" }}>
+              <IoCloseOutline style={{ fontWeight: "light" }} />
+            </IconContext.Provider>
+          </motion.div>
+        </div>
+        <div className={styles.body}>
+          {menu.map((el, index) => {
+            return <Link data={el} index={index} key={index} />;
+          })}
+        </div>
+        <motion.div
+          variants={opacity}
+          {...mountAnim}
+          custom={0.5}
+          className={styles.footer}
+        >
+          <a>
+            <Github />
+          </a>
+          <a>
+            {" "}
+            <LinkedIn />
+          </a>
+          <a>
+            {" "}
+            <X />
+          </a>
+          <a>
+            {" "}
+            <Instagram />
+          </a>
+        </motion.div>
       </motion.div>
-    </motion.div>
+    </div>
   );
 }
