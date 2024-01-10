@@ -29,7 +29,7 @@ export default function About() {
             }}
             className="px-[4%] "
           >
-            Some call me Optimus Prime - Your Trusty guide through the intricate
+            Some call me Optimus Prime Your Trusty guide through the intricate
             and ever-evolving world of Frontend.
           </p>
         </motion.div>
