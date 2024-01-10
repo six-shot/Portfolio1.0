@@ -13,7 +13,7 @@ export default function About() {
     <div className="font-monument_normal ">
       <main className="h-screen w-full bg-black">
         <motion.div
-          className="w-full h-full flex justify-center items-center sm:text-[64px] leading-[50px]  text-[40px] sm:leading-[66px] text-[#afa18f] cursor-default mask"
+          className="w-full h-full flex justify-center items-center sm:text-[64px] leading-[40px]  text-[32px] sm:leading-[66px] text-[#afa18f] cursor-default mask"
           animate={{
             WebkitMaskPosition: `${x - size / 2}px ${y - size / 2}px`,
             WebkitMaskSize: `${size}px`,
@@ -36,9 +36,10 @@ export default function About() {
 
         <div className="w-full h-full flex justify-center items-center sm:text-[64px] leading-[40px]  text-[32px] sm:leading-[66px] text-[#afa18f] cursor-default">
           <p className="px-[4%] ">
-            I&apos;m a <span className="text-[#76d5cb]">selectively skilled</span>{" "}
-            Frontend Developer with strong focus on producing high quality &
-            impactful digital experience.
+            I&apos;m a{" "}
+            <span className="text-[#76d5cb]">selectively skilled</span> Frontend
+            Developer with strong focus on producing high quality & impactful
+            digital experience.
           </p>
         </div>
       </main>
