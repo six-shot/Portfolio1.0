@@ -9,7 +9,7 @@ export default function Burger({openMenu}) {
           onClick={() => {
             openMenu();
           }}
-          className="w-[150px] h-[80px] bg-black hover:bg-[#76d5cb] hover:text-black text-white transition duration-500 xl:flex hidden flex-col fixed top-0 right-0 justify-between   cursor-pointer"
+          className="pr-[4%] py-[10px] h-[80px] bg-black hover:bg-[#76d5cb] hover:text-black text-white transition duration-500 xl:flex hidden flex-col fixed top-0 right-0 justify-between   cursor-pointer"
         >
           <div className="bg-[#76d5cb] w-full absolute left-0 top-0 h-0 -z-[1] transition duration-300 hover:h-full"></div>
           <svg

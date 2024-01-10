@@ -21,7 +21,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${monument_normal.variable} ${monument_bold.variable}`}>
       <body>
-        <Header />
         {children}
       </body>
     </html>
