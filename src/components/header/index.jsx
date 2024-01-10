@@ -10,25 +10,30 @@ export default function Header() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   return (
-    <div className={styles.header}>
-       
-      <Burger
-        openMenu={() => {
-          setMenuIsOpen(true);
-        }}
-      />
-      <AnimatePresence mode="wait">
-        {menuIsOpen && (
-          <>
-            <Stairs />
-            <Menu
-              closeMenu={() => {
-                setMenuIsOpen(false);
-              }}
-            />
-          </>
-        )}
-      </AnimatePresence>
+    <div className=" ">
+      <h2 className="uppercase font-monument_bold text-[26px] hidden  h-[80px] xl:flex justify-center items-center fixed top-0 left-0"> Optimus Prime</h2>
+      <h2 className="uppercase font-monument_bold text-white text-[26px] xl:hidden fixed top-0 left- h-[80px] flex w-full bg-black items-center p-[10px]"> O.P</h2>
+
+      <div>
+        <Burger
+          openMenu={() => {
+            setMenuIsOpen(true);
+          }}
+        />
+        <AnimatePresence mode="wait">
+          {menuIsOpen && (
+            <>
+              <Stairs />
+              <Menu
+                className="font-monument_bold"
+                closeMenu={() => {
+                  setMenuIsOpen(false);
+                }}
+              />
+            </>
+          )}
+        </AnimatePresence>
+      </div>
     </div>
   );
 }
