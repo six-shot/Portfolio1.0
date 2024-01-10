@@ -15,18 +15,18 @@ import Instagram from "../../../../public/assets/instagram";
 const menu = [
   {
     title: "About",
-    description: "To  Know Everything",
+    description: "To  Know Everything About Me",
     images: ["agence1.jpg", "agence2.jpg"],
   },
   {
     title: "Projects",
-    description: "To See Everything",
+    description: "To See Everything I Have Done",
     images: ["projects1.jpg", "projects2.jpg"],
   },
 
   {
     title: "Contact",
-    description: "To Send a FAX",
+    description: "To Send A Message",
     images: ["contact1.jpg", "contact2.jpg"],
   },
 ];
