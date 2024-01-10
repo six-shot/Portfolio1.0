@@ -54,13 +54,13 @@ export default function Links({ data, index }) {
           {[...Array(2)].map((_, index) => {
             return (
               <div key={index} className={styles.container}>
-                <div className={styles.imageContainer}>
+                {/* <div className={styles.imageContainer}>
                   <Image src={`/images/${images[0]}`} fill alt="image" />
-                </div>
+                </div> */}
                 <p>{description}</p>
-                <div className={styles.imageContainer}>
+                {/* <div className={styles.imageContainer}>
                   <Image src={`/images/${images[1]}`} fill alt="image" />
-                </div>
+                </div> */}
                 <p>{description}</p>
               </div>
             );

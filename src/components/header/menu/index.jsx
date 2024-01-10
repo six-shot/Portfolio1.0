@@ -16,18 +16,18 @@ const menu = [
   {
     title: "About",
     description: "To  Know Everything About Me",
-    images: ["agence1.jpg", "agence2.jpg"],
+   
   },
   {
     title: "Projects",
     description: "To See Everything I Have Done",
-    images: ["projects1.jpg", "projects2.jpg"],
+   
   },
 
   {
     title: "Contact",
     description: "To Send A Message",
-    images: ["contact1.jpg", "contact2.jpg"],
+  
   },
 ];
 
