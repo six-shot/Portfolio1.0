@@ -36,10 +36,8 @@ export default function About() {
 
         <div className="w-full h-full flex justify-center items-center sm:text-[64px] leading-[40px]  text-[32px] sm:leading-[66px] text-[#afa18f] cursor-default">
           <p className="px-[4%] ">
-            I&apos;m a{" "}
-            <span className="text-[#76d5cb]">selectively skilled</span> Frontend
-            Developer with strong focus on producing high quality & impactful
-            digital experience.
+         Hello Earthlings!
+            <span className="text-[#76d5cb]"> I am Optimus Prime,</span>but in this digital realm, I transform into a Frontend Developer
           </p>
         </div>
       </main>
