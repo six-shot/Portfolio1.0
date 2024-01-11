@@ -7,16 +7,16 @@ import { useTransform, useScroll, motion } from 'framer-motion';
 
 const images = [
   "18.png",
-  "14.png",
-  "3.jpg",
-  "4.jpg",
+  "30.png",
+  "31.png",
+  "31.png",
  "14.png",
-  "6.jpg",
-  "7.jpg",
+  "31.png",
+  "33.png",
   "22.png",
-  "9.jpg",
-  "10.jpg",
-  "15.png",
+  "29.jpg",
+  "27.png",
+  "26.png",
   "12.jpg",
   
 
